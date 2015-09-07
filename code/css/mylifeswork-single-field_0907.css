@@ -5,3 +5,8 @@
 #logo{
 	display:none;
 }
+
+
+li.hide-statement th label {
+	width:65%;
+}

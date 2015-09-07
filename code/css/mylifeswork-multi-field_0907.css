@@ -9,7 +9,7 @@ li.change-caption caption {
 }
 */
 
-li.hide-statement th label {
+li.hide-statement th  {
 	display:none;
 }
 
