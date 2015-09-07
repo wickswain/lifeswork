@@ -2,12 +2,10 @@
 	display:none;
 }
 
-/*
+
 li.change-caption caption {
-	 font-size:10pt;
 	 font-weight:bold; 
 }
-*/
 
 li.hide-statement th  {
 	display:none;

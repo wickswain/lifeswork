@@ -1,0 +1,12 @@
+#container{
+	width:800px
+}
+
+#logo{
+	display:none;
+}
+
+
+li.likert th {
+	width:90%;
+}
