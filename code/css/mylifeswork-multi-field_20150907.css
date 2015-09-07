@@ -1,16 +1,30 @@
+/* a handle on the container width. Default is 640px*/
+#container{
+	width:640px
+}
+
+/*hide the wufoo logo -- can be done through themes once we have a paid account*?*/
 #logo{
 	display:none;
 }
 
 
+/*bold the question title (wasn't working through themes at time of this writing)*/
 li.change-caption caption {
 	 font-weight:bold; 
 }
 
+/*hide the title column (left column)*/
 li.hide-statement th  {
 	display:none;
 }
 
-#container{
-	width:640px
+/*padding in answers table*/
+.likert thead td {
+    padding:6px 2px;
+}
+
+/*spacing between questions*/
+form li.likert {
+    padding: 4px 1% 4px 1%;
 }
