@@ -12,6 +12,7 @@
 /*bold the question title (wasn't working through themes at time of this writing)*/
 li.change-caption caption {
 	 font-weight:bold; 
+	 padding:1px 0 0.35em 0;
 }
 
 /*hide the title column (left column)*/
