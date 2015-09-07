@@ -8,7 +8,6 @@
 	display:none;
 }
 
-
 /*bold the question title (wasn't working through themes at time of this writing)*/
 li.change-caption caption {
 	 font-weight:bold; 
@@ -16,8 +15,32 @@ li.change-caption caption {
 }
 
 /*hide the title column (left column)*/
-li.hide-statement th  {
+li.hide-statement th label{
 	display:none;
+}
+
+
+/* Turning border color white hides it. Turning off border on left column */
+.likert table{
+    border-color: white;
+}
+
+/* Continueing to turn off border on th column. However, we want it to show on other colums, so we turn off all but right border */
+.likert th{
+    border-right: 1px solid #dcdcdc;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+}
+
+/* turning border white on the table removes the right border on the last column. Putting right border back. */
+.likert table td{
+    border-right: 1px solid #dcdcdc;
+    border-left: none;
+}
+
+/*hide the title column (left column)*/
+li.hide-statement th {
+	background-color: inherit;
 }
 
 /*padding in answers table*/
