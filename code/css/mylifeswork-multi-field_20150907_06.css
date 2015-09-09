@@ -41,3 +41,7 @@ li.buttons div{
 	margin-top:20px;
 	text-align:center;
 }
+
+.likert span.req{
+	display:none !important;
+}
